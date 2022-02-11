@@ -1,5 +1,7 @@
-# mjolnir
+# Mjolnir
+**Mjolnir is a simple, lightweight programming language. It follows ENBF grammar and the interpreter is completely written in javascript. Although its easy to read, its a strongly typed language and supports inline functions as well as recursion blocks.**
 ## Grammar
+```
 1. [] => optional 0/1
 2. {} => occurs 0-n times
 3. program::= variable-declaration | conditional | loop | expression [program]
@@ -28,3 +30,4 @@
 27. char::= “a” | “b” |...”Y” | “Z”
 28. digit::= “1” | “2” | “3” |...| ”9” | “0”
 29. wrapper::= “<<” | “>>”
+```
